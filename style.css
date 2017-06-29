@@ -1,0 +1,100 @@
+/*div[class*="col"], .col-md-5 {
+border: 1px solid red;
+
+
+}*/
+
+body{
+
+    background-color: rgba(68, 68, 68, .90);
+    color:rgb(255, 90, 30);
+}
+
+.icon{
+position: absolute;
+right:-10%;
+top: 50%;
+bottom: 50%;
+height: 10%;
+width: 10%;
+text-align: center;
+
+
+
+}
+
+.year {
+
+    height:20px;
+    border: 6px solid orangered;
+    
+}
+.info{
+    height: 75%;
+    width: 75%;
+}
+
+
+.row {
+height:15%;
+
+margin: 8% 0% 8% 0%;
+}
+
+.col-md-3, .col-md-9{
+height: 100%;
+
+}
+
+.col-md-9{
+padding: 5% 1% 5% 1%;
+background-color: black;
+color: white;
+
+}
+
+.listening{
+
+
+width: 60%;
+text-align: center;
+
+margin: 30% auto 10% auto;
+
+}
+
+h3{
+text-align: center;
+
+
+}
+
+.tictac  {
+  height:100%;
+padding: none;
+margin: none;
+}
+
+.year::first-letter {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+.grey .active a,
+.grey .active a:hover {
+    background-color: grey;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: grey;
+}
+
+#beef{
+font-family: 'Creepster', cursive;
+color:rgb(255, 0, 0)
+
+}
+
+.jumbotron{
+ border: 6px double orangered;
+}
